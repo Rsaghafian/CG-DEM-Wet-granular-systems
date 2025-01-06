@@ -4,5 +4,4 @@ Relevant files for reproducing a base case simulation in the paper "A Coarse-Gra
 
 The files include:
 1)The modified version of the ViscoelasticCapillarPM.cpp and ViscoelasticCapillarPM.hpp scripts in Yade-DEM source code, which includes the modification in the liquid viscous force and the calculation of the capillary force at the contact of two wet particles. 
-2)Python scripts for running simulations. 
-3) Data from base simulations in dry, wet without liquid migration, and wet with liquid migration. 
+2)Python scripts for running simulations for base simulations in dry, wet without liquid migration, and wet with liquid migration. Note that the liquid migration engine should be activated for case of wet particle system with liquid migration. 
